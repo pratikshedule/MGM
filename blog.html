@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/MGM logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">  
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/MGM certificate.jpg">
+        <h2>Our Certificate & Online Programs For 2021</h2>
+        
+        <p>Our Certificate and Online Programs at MGM University are meticulously designed to cater to the diverse needs of today’s learners who are eager to enhance their skills and knowledge in a flexible and accessible manner. These programs encompass a broad spectrum of disciplines, including business management, information technology, healthcare, creative arts, and more, ensuring that there is something for everyone, regardless of their background or career aspirations.</p>
+        <br>
+        <p>Our online platform is not only user-friendly but also interactive, allowing students to engage deeply with course materials, participate in lively discussions, and collaborate with peers from diverse geographical locations, thus enriching their learning experience. This global perspective fosters networking opportunities and enhances cultural awareness among students, which is increasingly important in today’s interconnected world. Additionally, our programs are led by experienced faculty members who are not only experts in their respective fields but also dedicated educators committed to nurturing the growth of their students. They bring real-world experience into the classroom, ensuring high-quality instruction and mentorship that inspires learners to reach their fullest potential.</p>
+        <br>
+        <p>We place a strong emphasis on the development of critical thinking and problem-solving skills, which are essential in navigating the complexities of the modern job market. Our curriculum encourages students to think creatively and approach challenges with a solutions-oriented mindset, preparing them to thrive in an ever-evolving professional landscape.</p>
+        <br>
+        <p>Whether you are looking to upskill, reskill, or explore new areas of interest, our Certificate and Online Programs provide a convenient and effective pathway to achieve your educational and career goals. By fostering a culture of continuous learning and professional development, MGM University empowers individuals to adapt to changing industry demands and seize new opportunities, making these programs an invaluable component of your professional journey.</p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>13</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i>By Pratik Shedule</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
